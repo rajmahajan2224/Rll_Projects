@@ -1,0 +1,51 @@
+.navbar {
+  color: #b6b7b9;
+  background: #000000;
+  position: relative;
+}
+
+.theme-btn:hover {
+  border: 1px solid yellow;
+  background: transparent;
+  color: yellow;
+}
+
+.mainmenu ul {
+  margin: 10px 0;
+  list-style-type: none;
+}
+
+.mainmenu li {
+  display: inline-block;
+}
+
+.mainmenu li a.active,
+.mainmenu li a:hover {
+  color: yellow;
+}
+
+.navbar-toggler-icon {
+  position: absolute;
+  top: 1rem;
+  right: 15rem;
+}
+
+.login-btn {
+  position: absolute;
+  top: 1.8rem;
+  right: 10px;
+  background-color: crimson;
+}
+
+.edit-btn {
+  position: absolute;
+  top: 1.8rem;
+  right: 7.5rem;
+  background-color: crimson;
+}
+
+img {
+  width: 120px;
+  height: 75px;
+  margin-right: 10px;
+}
